@@ -1,0 +1,11 @@
+.mapping{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.mapping .info h1{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 200px;
+}

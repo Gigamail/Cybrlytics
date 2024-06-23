@@ -1,0 +1,16 @@
+#last{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Business.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #last h1{
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 50px;
+  }
+  #last img{
+      margin-top: 50px;
+      margin-left: 400px;
+  }
