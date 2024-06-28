@@ -7,11 +7,13 @@
     height: 50px;
     background-color: black;
     display: flex;
+    top: 0;
+    position: fixed;
+    z-index: 1;
 }
 #nav a i{
   font-size: 30px;
   padding-left: 20px;
-  color: #fff;
   padding-top: 10px;
 }
 .contents{

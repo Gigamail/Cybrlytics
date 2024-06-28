@@ -1,4 +1,4 @@
-h1{
+.top-header h1{
   font-size: 40px;
   font-weight: bold;
   text-align: center;
@@ -7,13 +7,26 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
+    margin-top: 80px;
+    transition: 5s ease;
   }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
   .boxer2{
     width: 100%;
     margin-top: 200px;
     display: flex;
     justify-content: space-evenly;
+    transition: 5s ease-in-out;
   }
   .boxer3{
     width: 100%;
@@ -27,6 +40,7 @@ width: 300px;
 height: 200px;
 border: 1px solid #f1f1f1;
 perspective: 1000px; /* Remove this if you don't want the 3D effect */
+animation: bounce 2s infinite;
 }
 
 /* This container is needed to position the front and back side */
